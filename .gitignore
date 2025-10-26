@@ -1,0 +1,59 @@
+# Базы данных и логи
+*.db
+*.sqlite
+*.log
+
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Виртуальные окружения и зависимости
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.manifest
+*.spec
+
+# IDE и редакторы
+.idea/          # Для PyCharm/IntelliJ
+.vscode/        # Для VS Code
+*.swp
+*.swo
+*~
+.DS_Store      # macOS
+Thumbs.db       # Windows
+
+# Тестовые данные или большие файлы
+data/
+test_data/
+*.csv           # Если генерируешь большие CSV для тестов
+*.jsonl         # Большие логи
+
+# Другие
+*.bak
+*.tmp
+*.temp
