@@ -2,9 +2,9 @@ name: CI/CD - Build & Push Docker Image for Anomaly Detection
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
